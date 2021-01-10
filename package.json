@@ -1,0 +1,49 @@
+{
+  "name": "libux",
+  "version": "1.0.0",
+  "description": "A minimalistic UX framework for libraries",
+  "author": "Anton Skshidlevsky <meefik@gmail.com>",
+  "main": "dist/index.js",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/meefik/libux.git"
+  },
+  "scripts": {
+    "start": "webpack serve --mode development --config-name doc",
+    "lint": "eslint src/**/*.js doc/**/*.js --fix",
+    "build": "webpack --mode production"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "babel-eslint": "^10.1.0",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^5.0.1",
+    "cssnano": "^4.1.10",
+    "eslint": "^7.17.0",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.0.0-alpha.3",
+    "jsdoc": "^3.6.6",
+    "postcss-loader": "^4.1.0",
+    "postcss-preset-env": "^6.7.0",
+    "style-loader": "^2.0.0",
+    "terser-webpack-plugin": "^5.1.1",
+    "todomvc-app-css": "^2.3.0",
+    "url-loader": "^4.1.1",
+    "webpack": "^5.12.2",
+    "webpack-cli": "^4.3.1",
+    "webpack-dev-server": "^3.11.1"
+  },
+  "browserslist": [
+    "chrome >= 49",
+    "firefox >= 52",
+    "safari >= 11",
+    "opera >= 36",
+    "edge >= 79"
+  ],
+  "engines": {
+    "node": ">= 12.0.0",
+    "npm": ">= 6.0.0"
+  }
+}

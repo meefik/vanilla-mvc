@@ -1,0 +1,15 @@
+{
+  "header": "todos",
+  "new_todo": "What needs to be done?",
+  "toggle_all": "Mark all as complete",
+  "filter": {
+    "all": "All",
+    "active": "Active",
+    "completed": "Completed"
+  },
+  "clear_completed": "Clear completed",
+  "info": {
+    "line1": "Double-click to edit a todo",
+    "line2": "Written by <a href=\"https://github.com/meefik/\">Anton Skshidlevsky</a>"
+  }
+}
